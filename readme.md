@@ -7,7 +7,8 @@
 
 #### [Датасет](csv/filled_titanic.csv) с заполненными пропусками
 
-####[Датасет](csv/alive_titanic.csv) только с выжившими людьми
+
+#### [Датасет](csv/alive_titanic.csv) только с выжившими людьми
 
 ---
 #### [Модель](https://hub.docker.com/repository/docker/tikovka72/age-model) для предсказания возраста
