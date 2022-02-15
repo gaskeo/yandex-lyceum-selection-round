@@ -5,9 +5,32 @@
 
 ---
 
-* [Датасет с заполненными пропусками](csv/filled_titanic.csv)
+#### [Датасет](csv/filled_titanic.csv) с заполненными пропусками
 
-* [Датасет только с выжившими людьми](csv/alive_titanic.csv)
+####[Датасет](csv/alive_titanic.csv) только с выжившими людьми
+
+---
+#### [Модель](https://hub.docker.com/repository/docker/tikovka72/age-model) для предсказания возраста
+
+Как запустить:   
+1. Скачать с [dockerhub](https://hub.docker.com/).
+```
+docker pull tikovka72/age-model:latest
+```
+
+2. Запустить контейнер. Необходимо поменять `your_file.csv` на имя вашего `csv` файла. 
+```
+docker run --name age-model -v /root/your_file.csv:/csv/your_file.csv -e csv=your_file.csv tikovka72/age-model
+```
+3. Скопировать файл из контейнера. Вместо `new_file.csv` можно использовать любое имя. 
+```
+docker cp age-model:/csv/docker_out.csv new_file.csv
+```
+4. Удалить контейнер и образ: 
+```
+docker container rm --force age-model
+docker image rmi --force age-model
+```
 
 ---
 
