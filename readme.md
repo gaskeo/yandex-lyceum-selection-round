@@ -11,9 +11,13 @@
 #### [Датасет](csv/alive_titanic.csv) только с выжившими людьми
 
 ---
-#### [Модель](https://hub.docker.com/repository/docker/tikovka72/age-model) для предсказания возраста
+#### Модель для предсказания возраста
+* [Google Drive](https://drive.google.com/drive/folders/1-6LeK9Z8WKHAy0vx96Wee4NnRItxWEqt?usp=sharing)
+  (сама модель)
+* [Dockerhub](https://hub.docker.com/repository/docker/tikovka72/age-model)
+  (программа для заполнения пустых столбцов)
 
-Как запустить:   
+Как запустить с [docker](https://docker.com/):   
 1. Скачать с [dockerhub](https://hub.docker.com/).
 ```
 docker pull tikovka72/age-model:latest
@@ -41,7 +45,7 @@ docker image rmi --force age-model
 
 1. Найти решение для пропущенных значений в столбцах
 2. Ответить на вопросы:
-   <ol style="list-style-type: upper-alpha">
+   <ol type="A" style="list-style-type: upper-latin">
     <li>Кого больше среди пассажиров — мужчин или женщин?</li>
     <li>Каков процент взрослых мужчин от всех пассажиров?</li>
     <li>Сколько людей в каждом классе?</li>
@@ -49,7 +53,7 @@ docker image rmi --force age-model
 3. Провести анализ с помощью
    метода [`describe()`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.describe.html)
 4. Создать новую таблицу только с выжившими пассажирами и по ее данным ответить на вопросы:
-   <ol style="list-style-type: upper-alpha">
+   <ol type="A" style="list-style-type: upper-latin">
     <li>Как изменился процент взрослых мужчин?</li>
     <li>Какие изменения произошли в других столбцах?</li>
    </ol>
