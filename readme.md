@@ -1,4 +1,6 @@
 <a href="https://colab.research.google.com/github/tikovka72/yandex-lyceum-selection-round/blob/main/main.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+<a href="https://nbviewer.org/github/tikovka72/yandex-lyceum-selection-round/blob/main/main.ipynb" target="_parent"><img src="https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.svg" alt="render in nbviewer"/></a>
+
 # yandex lyceum selection round task
 
 [Решение](main.ipynb) для отборочного этапа в [Яндекс Лицей++](https://academy.yandex.ru/plusplus)
