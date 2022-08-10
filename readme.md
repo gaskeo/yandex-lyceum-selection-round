@@ -1,5 +1,5 @@
-<a href="https://colab.research.google.com/github/tikovka72/yandex-lyceum-selection-round/blob/main/main.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
-<a href="https://nbviewer.org/github/tikovka72/yandex-lyceum-selection-round/blob/main/main.ipynb" target="_parent"><img src="https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.svg" alt="render in nbviewer"/></a>
+<a href="https://colab.research.google.com/github/gaskeo/yandex-lyceum-selection-round/blob/main/main.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+<a href="https://nbviewer.org/github/gaskeo/yandex-lyceum-selection-round/blob/main/main.ipynb" target="_parent"><img src="https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.svg" alt="render in nbviewer"/></a>
 
 # Отборочный тур в [Яндекс Лицей++](https://academy.yandex.ru/plusplus)
 
@@ -34,7 +34,7 @@
    метода [`describe()`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.describe.html)
    
     > Развернутый ответ 
-    [здесь](https://nbviewer.org/github/tikovka72/yandex-lyceum-selection-round/blob/main/main.ipynb#4.-%D0%92%D1%8B%D0%B2%D0%BE%D0%B4%D1%8B-%D0%B8%D0%B7-%D1%80%D0%B5%D0%B7%D1%83%D0%BB%D1%8C%D1%82%D0%B0%D1%82%D0%BE%D0%B2)
+    [здесь](https://nbviewer.org/github/gaskeo/yandex-lyceum-selection-round/blob/main/main.ipynb#4.-%D0%92%D1%8B%D0%B2%D0%BE%D0%B4%D1%8B-%D0%B8%D0%B7-%D1%80%D0%B5%D0%B7%D1%83%D0%BB%D1%8C%D1%82%D0%B0%D1%82%D0%BE%D0%B2)
      
 4. Создать новую таблицу только с выжившими пассажирами и по ее данным ответить на вопросы:
    
